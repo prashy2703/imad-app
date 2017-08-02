@@ -1,22 +1,36 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+div{
+    border-radius:5px;  
+    background:blue;
 }
 
-.center {
-    text-align: center;
+#header{
+    height:43px;
+    width:400px;
+    border:1px solid green;
+    background-color:yellow;
+    position:fixed;
+    z-index:1;
 }
+.left{
 
-.text-big {
-    font-size: 300%;
+    height:66px;
+    width:400px;
+    border:1px solid green;
+    background-color:tomato;
+    float:left;
 }
-
-.bold {
-    font-weight: bold;
+.right{
+    width:300px;
+    height:43px;
+    border:1px solid green;
+    float:right;
+    background-color:violet;
 }
-
-.img-medium {
-    height: 200px;
+#footer{
+    color:white;
+    width:450px;
+    height:443px;
+    border:2px solid blue;
+    clear:both;
+    background-color:black;
 }
-
