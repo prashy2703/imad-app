@@ -1,36 +1,22 @@
-div{
-    border-radius:5px;  
-    background:blue;
+body {
+    font-family: sans-serif;
+    background-color: lightgrey;
+    margin-top: 75px;
 }
 
-#header{
-    height:43px;
-    width:400px;
-    border:1px solid green;
-    background-color:yellow;
-    position:fixed;
-    z-index:1;
+.center {
+    text-align: center;
 }
-.left{
 
-    height:66px;
-    width:400px;
-    border:1px solid green;
-    background-color:tomato;
-    float:left;
+.text-big {
+    font-size: 300%;
 }
-.right{
-    width:300px;
-    height:43px;
-    border:1px solid green;
-    float:right;
-    background-color:violet;
+
+.bold {
+    font-weight: bold;
 }
-#footer{
-    color:white;
-    width:450px;
-    height:443px;
-    border:2px solid blue;
-    clear:both;
-    background-color:black;
+
+.img-medium { width: 257px;
+    height: 344px;
 }
+
