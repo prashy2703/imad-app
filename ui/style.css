@@ -1,202 +1,21 @@
-header {
-	background: url('http://i.imgur.com/1I3csWs.jpg');
-	background-size: cover;
-	background-position: top;
-	color: white;
-	padding: 40px 0px 10px 0px;
-	text-align: center;
-}
-
 body {
-	font-family: 'Lato', sans-serif;
-	margin: 0;
+    font-family: sans-serif;
+    background-color: lightgrey;
+    margin-top: 75px;
 }
 
-h1 {
-	font-size: 50px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
-	text-transform: uppercase;
-	text-align: center;
+.center {
+    text-align: center;
 }
 
-h1 a {
-	color: white;
-	text-decoration: none;
+.text-big {
+    font-size: 300%;
 }
 
-h1 a:hover {
-	color: white;
-	text-decoration: none;
+.bold {
+    font-weight: bold;
 }
 
-h1 a:visited {
-	color: white;
-	text-decoration: none;
+.img-medium {
+    height: 200px;
 }
-
-h2 {
-	font-size:40px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 700;
-	text-align: left;
-	margin: 0px 10px;
-	color: rgb(209, 0, 0);
-	text-transform: uppercase;
-}
-h3 {
-	font-size: 28px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	margin: 10px 30px 10px 30px;
-}
-
-h3 a {
-	color: black;
-}
-
-h3 a:visited {
-	color: black;
-}
-
-h3 a:hover {
-	color: rgb(140, 200, 219);
-}
-
-iframe {
-	margin: 10px 30px 10px 30px;
-}
-
-.navbar {
-	background-color: black;
-	height: 75px;
-	text-align: center;
-	overflow: auto;
-}
-
-.nav {
-	font-family: 'Oswald', sans-serif;
-	color: white;
-	font-size: 18px;
-	text-transform: uppercase;
-	position: relative;
-	top: 25;
-	display: inline;
-	height: 75px;
-	margin: 25px;
-	padding: 24px;
-}
-
-.nav a {
-	color: white;
-	text-decoration: none;
-}
-
-.nav a:hover {
-	color: rgb(209, 0, 0);
-}
-
-.nav a:visited {
-	color: white;
-}
-
-
-
-#content {
-	margin: 30px 20px;
-}
-
-p[name="contact"] {
-	text-align: center;
-	margin: 40px 40px;
-}
-
-p[name="contact"] img {
-	display: inline-block;
-	padding: 10px;
-	height: 100px;
-	width: 100px;
-}
-
-p[name="one"] {
-	text-align:center;
-	font-size: 25px;
-	margin: 40px;
-}
-
-#intro {
-	font-size: 28px;
-	text-align: center;
-	padding-top: 40px;
-	color: rgb(209, 0, 0);
-	font-family: 'Oswald', sans-serif;
-	line-height: 34px;
-}
-
-p {
-	text-align: left;
-	font-size: 16px;
-	margin: 10px 30px 10px 30px;
-	line-height: 20px;
-	font-family: 'Lato', sans-serif;
-}
-
-a {
-	color: rgb(209, 0, 0);
-}
-
-a:hover {
-	color: rgb(140, 200, 219);
-}
-
-a:visited {
-	color: rgb(171, 171, 171);
-}
-
-footer {
-	font-size: 12px;
-	font-style: italic;
-	margin: 10px;
-	text-align: right;
-}
-
-@media (max-width: 700px) {
-	h1 {
-		font-size: 36px;
-	}
-	h2 {
-		font-size: 26px;
-	}
-	h3 {
-		font-size: 18px;
-	}
-	.navbar {
-		height: auto;
-	}
-	.nav {
-		display: block;
-		padding: 5px;
-		margin: 5px;
-		height: 25px;
-		position: static;
-	}
-	.youtube {
-		width: 280px;
-		height: 162.5px;
-	}
-	.soundcloud {
-		width: 80%;
-	}
-	p[name="contact"] img {
-		height: 80;
-		width: 80;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	p[name="contact"] img {
-		height: 50px;
-		width: 50px;
-	}
-}
-
